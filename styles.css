@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(29,32,33);
+    color: rgb(251,241,199);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em;
+    padding: 1em;
+
+}
+hr{
+    border: 2px solid rgb(93, 167, 95);
+    border-radius: 14px;
+}
+p{
+    text-align: left;
+}
+
+a:hover,a:visited,a:active,a:link{
+    color: rgb(29,32,33);
+    text-decoration: none;
+}
+
+.top{
+    padding: 1em;
+    border: 4px solid rgb(104,157,106);
+    border-radius: 14px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    border: 4px solid rgb(104,157,106);
+    border-radius: 14px;
+    margin: 2em;
+    padding: 2em;
+    height: 1em
+}
+.linked{
+    border: 2px solid gray;
+    border-radius: 14px;
+    background-color: gray;
+    color: rgb(29,32,33);
+    padding: 3px;
+}
+.linked2{
+    border: 2px solid dodgerblue;
+    border-radius: 14px;
+    background-color: dodgerblue;
+    color: rgb(29,32,33);
+    padding: 3px;
+}
+.linked3{
+    border: 2px solid plum;
+    border-radius: 14px;
+    background-color: plum;
+    color: rgb(29,32,33);
+    padding: 3px;
+}
+.Bible{
+    border: 2px solid gold;
+    border-radius: 14px;
+    background-color: gold;
+    color: rgb(29,32,33);
+    padding: 3px;
+}
