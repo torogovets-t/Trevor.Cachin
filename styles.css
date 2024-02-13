@@ -64,3 +64,10 @@ a:hover,a:visited,a:active,a:link{
     color: rgb(29,32,33);
     padding: 3px;
 }
+.linked4{
+    border: 2px solid crimson;
+    border-radius: 14px;
+    background-color: crimson;
+    color: rgb(29,32,33);
+    padding: 3px;
+}
