@@ -51,9 +51,9 @@ a:hover,a:visited,a:active,a:link{
     padding: 3px;
 }
 .linked3{
-    border: 2px solid plum;
+    border: 2px solid violet;
     border-radius: 14px;
-    background-color: plum;
+    background-color: violet;
     color: rgb(29,32,33);
     padding: 3px;
 }
