@@ -1,89 +1,60 @@
 body{
-    background-color: rgb(50,48,47);
-    color: rgb(235,219,178);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(218, 191, 134);
+    color: rgb(15, 14, 80);
+    text-align: center;
+    padding: 1em;;
+    text-indent: 4px;
+    text-shadow: 35%;
+    text-wrap: wrap;
+    display: flexbox;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.intro{
+    border: 5px ridge rgb(15, 14, 80);
+    border-radius: 32px;
+    margin: 2em;
+    background-color: bisque ;
+    text-align: left;
+    padding: 1em;
+}
+.github{
+    border: 5px ridge rgb(15, 14, 80);
+    border-radius: 32px;
     margin: 1em;
     padding: 1em;
-    box-shadow: 5px 5px 25px rgba(0,0 ,0 , 0.5);
-    border: 2px solid rgb(214,93,14);
-    border-radius: 15px;
-
+    background-color: rgb(172, 97, 243);
 }
-hr{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
+.discord{
+    border: 5px ridge rgb(15, 14, 80);
+    border-radius: 32px;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(107, 83, 247);
 }
-p{
+.telegram{
+    border: 5px ridge rgb(15, 14, 80);
+    border-radius: 32px;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(117, 189, 231);
+}
+.news{
+    border: 5px ridge rgb(15, 14, 80);
+    border-radius: 32px;
+    margin: 2em;
+    padding: 1em;
+    background-color: bisque;
     text-align: left;
 }
-
-a:hover,a:visited,a:active,a:link{
-    color: rgb(29,32,33);
-    text-decoration: none;
+a {
+    transition: transform 0.3s ease;
 }
 
-.top{
-    padding: 1em;
-    
-    border-radius: 14px;
-
-}
-.Top2{
-    padding: 1em;
-    border-radius: 14px;
-}
-.cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 14px;
-    margin: 1.5em;
-    padding: 3em;
-    height: 1em
-}
-.linked{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
-    background-color: rgb(214,93,14);
-    color: rgb(29,32,33);
-    padding: 10px;
-}
-.linked2{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
-    background-color: rgb(214,93,14);
-    color: rgb(29,32,33);
-    padding: 10px;
-}
-.linked3{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
-    background-color: rgb(214,93,14);
-    color: rgb(29,32,33);
-    padding: 10px;
-}
-.Bible{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
-    background-color: rgb(214,93,14);
-    color: rgb(29,32,33);
-    padding: 10px;
-}
-.linked4{
-    border: 2px solid rgb(214,93,14);
-    border-radius: 14px;
-    background-color: rgb(214,93,14);
-    color: rgb(29,32,33);
-    padding: 10px;
-}
-a:link, a:visited, a:hover, a:active{
-    text-decoration: none;
-}
-h1{
-    color: rgb(204,36,29);
-}
-b{
-    color: rgb(204,36,29);
+a:hover {
+    color: red;
+    transform: scale(1.2);
 }
