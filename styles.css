@@ -50,11 +50,3 @@ body{
     background-color: bisque;
     text-align: left;
 }
-a {
-    transition: transform 0.3s ease;
-}
-
-a:hover {
-    color: red;
-    transform: scale(1.2);
-}
